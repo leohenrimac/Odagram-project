@@ -11,17 +11,22 @@ p {
     margin: 0;
 }
 
-.container {
+#container {
     width: 375px;
     margin: 0 auto;
+    background-color: #c9c9c9;
+}
+
+.post {
     background-color: white;
+    border-bottom: 20px solid #dedede;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #c9c9c9;
+    background-color: white;
 }
 
 .img-logo {
@@ -33,6 +38,7 @@ p {
     display: flex;
     justify-content: left;
     align-items: center;
+    border-top: 1px solid #dedede;
 }
 
 .img-user {
@@ -59,4 +65,32 @@ p {
 
 .img-post {
     max-width: 100%;
+}
+
+.post-icons {
+    margin: 10px;
+}
+
+.icon-like, .icon-comment, .icon-dm {
+    width: 22px;
+    
+}
+
+.icon-comment {
+    padding: 0 10px;
+
+}
+
+.post-likes {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.post-comments {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
 }
